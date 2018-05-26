@@ -22,12 +22,11 @@ public class TraversalTests {
 				
 		Person person = connection.tx().addFramedVertex(Person.class);
 		
-		assert person != null;
+		Assert.assertNotEquals(person, null);
 		person.setPets(pets);
 		connection.save();
 
 		Assert.assertEquals(person.getPets().size(), 1);
-		System.err.println("NAME :: "+person.getPets().get(0).getName());
 		Assert.assertEquals(person.getPets().get(0).getName(),"fluffy");
 		
 	}
