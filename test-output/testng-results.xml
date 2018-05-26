@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2254" started-at="2018-05-26T04:06:07Z" finished-at="2018-05-26T04:06:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2254" started-at="2018-05-26T04:06:07Z" finished-at="2018-05-26T04:06:09Z">
+      <class name="qanairy.orientdb_ferma.TraversalTests">
+        <test-method status="PASS" signature="traversalTest()[pri:0, instance:qanairy.orientdb_ferma.TraversalTests@6093dd95]" name="traversalTest" duration-ms="2226" started-at="2018-05-26T00:06:07Z" finished-at="2018-05-26T00:06:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- traversalTest -->
+      </class> <!-- qanairy.orientdb_ferma.TraversalTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

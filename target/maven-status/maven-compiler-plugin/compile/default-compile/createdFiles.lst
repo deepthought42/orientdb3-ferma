@@ -1,0 +1,5 @@
+qanairy\orientdb_ferma\App.class
+qanairy\orientdb_ferma\graph\Pet.class
+qanairy\orientdb_ferma\OrientConnectionFactory.class
+qanairy\orientdb_ferma\graph\Person.class
+qanairy\orientdb_ferma\graph\root\RootVertex.class
